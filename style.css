@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto:wght@300;400&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.container {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.graus {
+    display: flex;
+    flex-direction: row ;
+}
+.esferico, .cilindrico {
+    margin: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+button {
+    margin: 10px;
+    border-style: none;
+    height: 50px;
+}
+#resultado {
+    margin: 10px;
+    padding: auto ;
+    font-weight: bold;
+}
